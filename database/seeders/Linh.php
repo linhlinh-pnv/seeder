@@ -24,14 +24,19 @@ class Linh extends Seeder
         //     ['name'=>'kẹo'],
 
         // ]);
+
+
         DB::table('customers')->insert([
            
-            ['name'=>'Mỹ Linh'],
-            ['gender'=>'Nữ'],
-            ['email'=>'Linh.nguyen@gmail.com'],
-            ['address'=>'Quảng Bình'],
-            ['phone_number'=>'084756291'],
-            ['note'=>'yeaaaa'],
+            ['name'=>'Mỹ Linh','gender'=>'Nữ','email'=>'Linh.nguyen@gmail.com','address'=>'Quảng Bình',
+            'phone_number'=>'084756291','note'=>'yeaaaa'],
+            ['name'=>'Mỹ Hạnh','gender'=>'Nữ','email'=>'hanh.nguyen@gmail.com','address'=>'Quảng Bình',
+            'phone_number'=>'084756291','note'=>'yeaaaa'],
+            ['name'=>'Mỹ Hoài','gender'=>'Nữ','email'=>'hoai.nguyen@gmail.com','address'=>'Quảng Bình',
+            'phone_number'=>'084756291','note'=>'yeaaaa'],
+            ['name'=>'Mỹ Tâm','gender'=>'Nữ','email'=>'tam.nguyen@gmail.com','address'=>'Quảng Bình',
+            'phone_number'=>'084756291','note'=>'yeaaaa'],
+            
 
 
         ]);
